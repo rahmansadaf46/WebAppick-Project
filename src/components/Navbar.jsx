@@ -96,7 +96,7 @@ const CustomNavbar = () => {
       </Navbar>
 
       <Navbar
-        style={{ backgroundColor: "#245D51" }}
+        style={{ backgroundColor: "#245D51"}}
         expand={false}
         className="d-lg-none"
       >
@@ -118,7 +118,7 @@ const CustomNavbar = () => {
           </svg>
         </div>
       </Navbar>
-
+              
       <Offcanvas
         style={{ backgroundColor: "#245D51" }}
         show={show}

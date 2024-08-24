@@ -10,7 +10,7 @@ const HeroSection = () => (
     className="hero-section"
   >
     <Row className="align-items-center">
-      <Col md={7}>
+      <Col className="mt-sm-5 mt-md-5" lg={7} md={12} sm={12}>
         <div
           style={{
             position: "relative",
@@ -19,14 +19,14 @@ const HeroSection = () => (
             fontFamily: "Poppins, sans-serif",
             fontWeight: "bold",
           }}
-          className=" ms-5 mt-0"
+          className=" ms-5 mt-md-5 mt-ms-5"
         >
-          <h1>
+          <h1 className="description-heading">
             There is <span className="curved-underline">always</span>
           </h1>
           <h1>something new for</h1>
           <h1> us to learn</h1>
-          <div style={{ color: "#A7BFB9", width: "50%" }}>
+          <div className="description" style={{ color: "#A7BFB9" }}>
             <span>
               we have created more than 100+ materials on various things that
               will help your career, with mentors who are experienced in their
@@ -103,7 +103,7 @@ const HeroSection = () => (
           </div>
         </div>
       </Col>
-      <Col md={5}>
+      <Col lg={5}>
         <div
           className="d-none d-lg-flex justify-content-between"
           style={{ position: "relative" }}
@@ -204,7 +204,7 @@ const HeroSection = () => (
                 <Col md={9}>
                   <div style={{ lineHeight: "0.9" }}>
                     <h6>Learn basic ui ux design</h6>
-                    <small style={{color:'gray'}}>Today at 12 PM</small>
+                    <small style={{ color: "gray" }}>Today at 12 PM</small>
                   </div>
                   <Button
                     style={{
