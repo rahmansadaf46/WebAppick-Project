@@ -42,12 +42,11 @@ const HeroSection = () => (
                   backgroundColor: "#CB8461",
                   border: "none",
                   borderRadius: "2px",
-                  fontWeight: "bold",
                 }}
                 className=" px-3"
                 href="#Start"
               >
-                Start Journey{" "}
+                <b>Start Journey </b>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"

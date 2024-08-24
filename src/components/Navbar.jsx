@@ -96,7 +96,7 @@ const CustomNavbar = () => {
       </Navbar>
 
       <Navbar
-        style={{ backgroundColor: "#245D51"}}
+        style={{ backgroundColor: "#245D51", zIndex: 10 }}
         expand={false}
         className="d-lg-none"
       >
