@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+.curved-underline {
+    position: relative;
+    display: inline-block; /* Adjust as necessary */
+}
+
+.curved-underline::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 12px; 
+    border-top: solid 5px #cb8461;
+    border-radius: 100%/100% 100%; /* Adjust this for the curvature */
+    left: 0;
+    bottom: -13px; /* Adjust this according to your needs */
+}
+
+.hero-section h1 {
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    .hero-section h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-section {
+        text-align: center;
+    }
+    .hero-section img {
+        margin-top: 20px;
+    }
+}
