@@ -86,14 +86,17 @@ const HeroSection = () => (
               </svg>
             </div>
           </div>
-          <h1 style={{ fontSize: "50px" }} className="description-heading">
+          <h1 className="description-heading description-heading-font">
             There is{" "}
-            <span style={{ position: "relative", fontSize: "50px" }}>
+            <span
+              className="description-heading-font"
+              style={{ position: "relative" }}
+            >
               always <img className="curved-underline" src={underline} />
             </span>
           </h1>
-          <h1 style={{ fontSize: "50px" }}>something new for</h1>
-          <h1 style={{ fontSize: "50px" }}> us to learn</h1>
+          <h1 className="description-heading-font">something new for</h1>
+          <h1 className="description-heading-font"> us to learn</h1>
           <div className="description" style={{ color: "#A7BFB9" }}>
             <span>
               we have created more than 100+ materials on various things that

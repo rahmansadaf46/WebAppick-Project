@@ -1,110 +1,108 @@
 import person from "../assets/images/person2.jpg";
+import greenHalfCircle from "../assets/images/greenHalfCircle.jpg";
+import greenHalfCircle2 from "../assets/images/greenHalfCircle2.jpg";
+import box1 from "../assets/images/box1.jpg";
+import box2 from "../assets/images/box2.jpg";
+import box3 from "../assets/images/box3.jpg";
+
+import circle1 from "../assets/images/circle1.jpg";
 
 const Subscribe = () => {
   return (
-    <div style={styles.container}>
-      <div style={styles.icon2}></div>
-
-      <div style={{ position: "absolute", right: "400px" }}>
-    
+    <div>
+      <div className="subscribe">
+        <div className="container">
+          <div style={{ position: "absolute", top: "130px", left: "0px" }}>
+            <img
+              style={{ width: "50px", height: "50px" }}
+              src={greenHalfCircle}
+              alt=""
+            />
+          </div>
+          <div className="row">
+            <div className="col-lg-7 py-5  mt-4 text-lg-start text-center">
+              <h2>
+                <b>Happy </b>
+                <span style={{ color: "#CB8461" }}>
+                  {" "}
+                  <b> Chinese New Year,</b>
+                </span>{" "}
+                <b>20%</b>
+              </h2>
+              <h2>
+                <b>discount for you today</b>
+              </h2>
+              <button
+                style={{ background: "#245D51" }}
+                className="btn text-white p-2 mt-3"
+              >
+                <b>Subscribe Course</b>
+              </button>
+              <div
+                style={{ position: "absolute", bottom: "-100px", left: "50px" }}
+                className="d-lg-none "
+              >
+                <img
+                  style={{ width: "20px", height: "20px" }}
+                  src={circle1}
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              style={{ position: "relative" }}
+              className="col-lg-5 d-none d-lg-block"
+            >
+              <div
+                style={{ position: "absolute", top: "200px", left: "-10px" }}
+              >
+                <img
+                  style={{ width: "40px", height: "40px" }}
+                  src={box1}
+                  alt=""
+                />
+              </div>
+              <div
+                style={{ position: "absolute", bottom: "30px", left: "40px" }}
+              >
+                <img
+                  style={{ width: "20px", height: "20px" }}
+                  src={circle1}
+                  alt=""
+                />
+              </div>
+              <img src={person} alt="" />
+              <div
+                style={{ position: "absolute", top: "180px", left: "330px" }}
+              >
+                <img
+                  style={{ width: "40px", height: "40px" }}
+                  src={box2}
+                  alt=""
+                />
+              </div>
+              <div
+                style={{ position: "absolute", bottom: "50px", left: "280px" }}
+              >
+                <img
+                  style={{ width: "40px", height: "40px" }}
+                  src={box3}
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div style={{ position: "absolute", bottom: "-130px", right: "0px" }}>
+            <img
+              style={{ width: "50px", height: "50px" }}
+              src={greenHalfCircle2}
+              alt=""
+            />
+          </div>
+        </div>
       </div>
-      <div style={styles.leftSection}>
-        <h1 style={styles.text}>
-          Happy <span style={styles.highlightedText}>Chinese New Year</span>,
-          20% discount for you today
-        </h1>
-        <button style={styles.button}>Subscribe Course</button>
-      </div>
-
-      <div style={styles.rightSection}>
-        <img src={person} alt="Child with books" style={styles.image} />
-      </div>
-      <div style={styles.icon1}></div>
     </div>
   );
-};
-
-const styles = {
-  container: {
-    position: "relative",
-    display: "flex",
-    backgroundColor: "#f4ede6",
-    padding: "20px",
-    borderRadius: "8px",
-    alignItems: "center",
-    justifyContent: "space-between",
-    overflow: "hidden",
-    margin: "10px 90px",
-  },
-  leftSection: {
-    flex: 1,
-    marginRight: "20px",
-  },
-  mainIcon: {
-    width: "56px",
-    height: "57px",
-    backgroundColor: "#244d42",
-    borderRadius: "8px",
-    marginBottom: "20px",
-  },
-  text: {
-    fontSize: "24px",
-    fontWeight: "normal",
-    margin: "0 0 20px 0",
-    color: "#333",
-  },
-  highlightedText: {
-    color: "#d4653f",
-  },
-  button: {
-    backgroundColor: "#244d42",
-    color: "#fff",
-    border: "none",
-    borderRadius: "4px",
-    padding: "10px 20px",
-    cursor: "pointer",
-    fontSize: "16px",
-  },
-  rightSection: {
-    flexShrink: 0,
-  },
-  image: {
-    width: "200px",
-    height: "auto",
-    position: "relative",
-  },
-  // Background icons
-  icon1: {
-    position: "absolute",
-    bottom: "-15px",
-    right: "-15px",
-    width: "60px",
-    height: "60px",
-    backgroundColor: "#244d42",
-    borderRadius: "50%",
-    transform: "rotate(20deg)",
-  },
-  icon2: {
-    position: "absolute",
-    top: "-15px",
-    left: "-15px",
-    width: "60px",
-    height: "60px",
-    backgroundColor: "#244d42",
-    borderRadius: "50%",
-    border: "1px solid #244d42",
-    transform: "rotate(-15deg)",
-  },
-  icon3: {
-    position: "absolute",
-    top: "25%",
-    right: "5%",
-    width: "60px",
-    height: "60px",
-    backgroundColor: "#244d42",
-    borderRadius: "8px",
-    transform: "rotate(-10deg)",
-  },
 };
 
 export default Subscribe;
