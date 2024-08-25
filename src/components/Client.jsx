@@ -16,8 +16,8 @@ const Client = () => {
       >
         <h2 className="description-heading">
           <b>
-            Trusted more than <span style={{ color: "#CB8461" }}>100+</span> in
-            the world
+            Trusted more than <span className="brown-text">100+</span> in the
+            world
           </b>
         </h2>
         <p className="description-heading-2" style={{ color: "gray" }}>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Navbar, Nav, Offcanvas, Button } from "react-bootstrap";
+import { Button, Nav, Navbar, Offcanvas } from "react-bootstrap";
 
 const CustomNavbar = () => {
   const [menu, setMenu] = useState("Home");
@@ -19,7 +19,7 @@ const CustomNavbar = () => {
         <div>
           <Navbar.Brand className="ps-5" href="#home">
             <b style={{ color: "white" }}>
-              Skill <span style={{ color: "#CB8461" }}>Shoot</span>
+              Skill <span className="brown-text">Shoot</span>
             </b>
           </Navbar.Brand>
         </div>
@@ -102,7 +102,7 @@ const CustomNavbar = () => {
       >
         <Navbar.Brand className="ps-5" href="#home">
           <b style={{ color: "white" }}>
-            Skill <span style={{ color: "#CB8461" }}>Shoot</span>
+            Skill <span className="brown-text">Shoot</span>
           </b>
         </Navbar.Brand>
         <div className="me-3 text-white" onClick={handleShow}>
@@ -118,7 +118,7 @@ const CustomNavbar = () => {
           </svg>
         </div>
       </Navbar>
-              
+
       <Offcanvas
         style={{ backgroundColor: "#245D51" }}
         show={show}
@@ -127,7 +127,7 @@ const CustomNavbar = () => {
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>
             <b className="ms-4" style={{ color: "white" }}>
-              Skill <span style={{ color: "#CB8461" }}>Shoot</span>
+              Skill <span className="brown-text">Shoot</span>
             </b>
           </Offcanvas.Title>
         </Offcanvas.Header>

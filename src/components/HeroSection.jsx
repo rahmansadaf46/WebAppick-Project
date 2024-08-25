@@ -97,7 +97,10 @@ const HeroSection = () => (
           </h1>
           <h1 className="description-heading-font">something new for</h1>
           <h1 className="description-heading-font"> us to learn</h1>
-          <div className="description" style={{ color: "#A7BFB9" }}>
+          <div
+            className="description"
+            style={{ color: "#A7BFB9", lineHeight: 2 }}
+          >
             <span>
               we have created more than 100+ materials on various things that
               will help your career, with mentors who are experienced in their

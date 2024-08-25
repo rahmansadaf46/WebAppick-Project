@@ -1,9 +1,9 @@
-import person from "../assets/images/person2.jpg";
-import greenHalfCircle from "../assets/images/greenHalfCircle.jpg";
-import greenHalfCircle2 from "../assets/images/greenHalfCircle2.jpg";
 import box1 from "../assets/images/box1.jpg";
 import box2 from "../assets/images/box2.jpg";
 import box3 from "../assets/images/box3.jpg";
+import greenHalfCircle from "../assets/images/greenHalfCircle.jpg";
+import greenHalfCircle2 from "../assets/images/greenHalfCircle2.jpg";
+import person from "../assets/images/person2.jpg";
 
 import circle1 from "../assets/images/circle1.jpg";
 
@@ -23,7 +23,7 @@ const Subscribe = () => {
             <div className="col-lg-7 py-5  mt-4 text-lg-start text-center">
               <h2>
                 <b>Happy </b>
-                <span style={{ color: "#CB8461" }}>
+                <span className="brown-text">
                   {" "}
                   <b> Chinese New Year,</b>
                 </span>{" "}
