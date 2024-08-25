@@ -24,9 +24,9 @@ const HomePage = () => (
     <Profile />
     <CoursesSection />
     <About />
-    <Price />
-    <Join />
 
+    <Join />
+    <Price />
   </Suspense>
 );
 

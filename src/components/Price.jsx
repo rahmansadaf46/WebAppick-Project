@@ -25,7 +25,7 @@ const Price = () => {
         </p>
       </div>
       <Container>
-        <Row className="align-items-center my-5 mx-5 px-5 justify-content-center">
+        <Row className="align-items-center my-5  justify-content-center">
           <Col className="my-3" lg={4} md={12} xs={12}>
             <Card>
               <Card.Body>
@@ -72,7 +72,7 @@ const Price = () => {
                       borderRadius: "50px",
                       color: "#FDC2A6",
                     }}
-                    className="btn px-5 "
+                    className="btn px-5 select-price-btn "
                   >
                     Choose Plan
                   </button>
@@ -140,7 +140,7 @@ const Price = () => {
                       borderRadius: "50px",
                       color: "white",
                     }}
-                    className="btn px-5 "
+                    className="btn px-5 select-price-btn"
                   >
                     Choose Plan
                   </button>
@@ -194,7 +194,7 @@ const Price = () => {
                       borderRadius: "50px",
                       color: "#FDC2A6",
                     }}
-                    className="btn px-5 "
+                    className="btn px-5 select-price-btn"
                   >
                     Choose Plan
                   </button>
