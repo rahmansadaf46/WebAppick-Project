@@ -1,6 +1,6 @@
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 
-import image from "../assets/images/hero-image.jpg";
+import image from "../assets/images/person1.jpg";
 import avatar from "../assets/images/avatar1.jpg";
 
 const HeroSection = () => (
