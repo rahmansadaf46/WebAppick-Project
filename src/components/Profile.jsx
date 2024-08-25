@@ -41,7 +41,14 @@ const Profile = () => {
                   </div>
                 </Col>
                 <Col xs={9}>
-                  <div className="text-start" style={{ lineHeight: "0.1" }}>
+                  <div
+                    className="text-start"
+                    style={{
+                      lineHeight: "0.1",
+                      position: "relative",
+                      left: "-10px",
+                    }}
+                  >
                     <h6>Jerony Pulquosta</h6>
                     <small style={{ color: "#808080" }}>CEO Skill Shoot</small>
                   </div>

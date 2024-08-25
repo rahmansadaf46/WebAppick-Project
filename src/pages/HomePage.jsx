@@ -19,8 +19,9 @@ const HomePage = () => (
     <Client />
     <Subscribe />
     <Profile />
-    <Join />
     <CoursesSection />
+    <Join />
+
     <PricingSection />
   </Suspense>
 );

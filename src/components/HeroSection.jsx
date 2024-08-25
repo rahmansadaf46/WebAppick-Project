@@ -291,7 +291,13 @@ const HeroSection = () => (
                   />
                 </Col>
                 <Col md={9}>
-                  <div style={{ lineHeight: "0.9" }}>
+                  <div
+                    style={{
+                      lineHeight: "0.9",
+                      position: "relative",
+                      left: "-10px",
+                    }}
+                  >
                     <h6>Learn basic ui ux design</h6>
                     <small style={{ color: "gray" }}>Today at 12 PM</small>
                   </div>
