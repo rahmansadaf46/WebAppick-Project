@@ -11,9 +11,9 @@
     width: 100%;
     height: 12px;
     border-top: solid 5px #cb8461;
-    border-radius: 100%/100% 100%; /* Adjust this for the curvature */
+    border-radius: 100%/100% 100%;
     left: 0;
-    bottom: -13px; /* Adjust this according to your needs */
+    bottom: -13px;
 }
 
 .hero-section h1 {
@@ -23,8 +23,132 @@
     width: 50%;
 }
 
+.icon-container {
+    position: relative;
+    width: 100px; /* Adjust as necessary */
+    height: 100px; /* Adjust as necessary */
+}
 
+.circle {
+    position: absolute;
+    border-radius: 50%;
 
+    opacity: 0.8; /* Transparency of the circles */
+}
+
+.circle1 {
+    background-color: #e08c6f;
+    top: 10px;
+    left: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+.circle2 {
+    background-color: #d46a3a;
+    top: 26px;
+    left: 35px;
+    width: 25px;
+    height: 25px;
+}
+
+.box-green-1 {
+    position: absolute;
+}
+
+.box1 {
+    background-color: #14463a;
+    top: 10px;
+    left: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+.box2 {
+    top: 16px;
+    left: 28px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #14463a;
+}
+
+.box-orange-1 {
+    position: absolute;
+    transform: rotate(15deg);
+    transform-origin: top left;
+}
+.box3 {
+    background-color: #cb8461;
+    top: 10px;
+    left: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+.box4 {
+    top: 16px;
+    left: 12px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #cb8461;
+}
+
+.box-green-2 {
+    position: absolute;
+    transform: rotate(15deg);
+    transform-origin: top left;
+}
+.box5 {
+    background-color: #347366;
+    top: 10px;
+    left: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+.box6 {
+    top: 16px;
+    left: 12px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #347366;
+}
+
+.mainDiv {
+    position: relative;
+    width: 206px;
+    height: 190px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+.square {
+    width: 95px;
+    height: 100.5px;
+    background: #6bcd49;
+    border: 0px;
+    position: absolute;
+    top: 43px;
+}
+.square2 {
+    width: 38px;
+    height: 103.5px;
+    background: #5eba3f;
+    border: 0px;
+    transform: skew(180deg, 145deg);
+    position: absolute;
+    left: 95px;
+    top: 27px;
+}
+.square3 {
+    width: 50px;
+    height: 62px;
+    background: #c9f87c;
+    border: 0px;
+    transform: rotate(140deg) translate(-40px, -16px) skew(50deg, 0deg);
+    position: absolute;
+    left: 0px;
+    top: 12px;
+}
 @media (max-width: 991px) {
     .description {
         width: 100%;
