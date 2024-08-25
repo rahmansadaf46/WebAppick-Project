@@ -1,9 +1,4 @@
 import person from "../assets/images/person2.jpg";
-import Box1 from "./common/Box1";
-import Box2 from "./common/Box2";
-import Box3 from "./common/Box3";
-import Circle1 from "./common/Circle1";
-import Cube from "./common/Cube";
 
 const Subscribe = () => {
   return (
@@ -11,10 +6,7 @@ const Subscribe = () => {
       <div style={styles.icon2}></div>
 
       <div style={{ position: "absolute", right: "400px" }}>
-        <Circle1 />
-        <Box1 />
-        <Box2 />
-        <Box3 />
+    
       </div>
       <div style={styles.leftSection}>
         <h1 style={styles.text}>
@@ -27,7 +19,6 @@ const Subscribe = () => {
       <div style={styles.rightSection}>
         <img src={person} alt="Child with books" style={styles.image} />
       </div>
-      <Cube />
       <div style={styles.icon1}></div>
     </div>
   );

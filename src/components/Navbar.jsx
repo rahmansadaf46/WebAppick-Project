@@ -17,7 +17,7 @@ const CustomNavbar = () => {
         className="d-none d-lg-flex justify-content-between p-3"
       >
         <div>
-          <Navbar.Brand className="ms-5" href="#home">
+          <Navbar.Brand className="ps-5" href="#home">
             <b style={{ color: "white" }}>
               Skill <span style={{ color: "#CB8461" }}>Shoot</span>
             </b>
@@ -100,7 +100,7 @@ const CustomNavbar = () => {
         expand={false}
         className="d-lg-none"
       >
-        <Navbar.Brand className="ms-5" href="#home">
+        <Navbar.Brand className="ps-5" href="#home">
           <b style={{ color: "white" }}>
             Skill <span style={{ color: "#CB8461" }}>Shoot</span>
           </b>
