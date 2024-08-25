@@ -12,29 +12,22 @@ const Client = () => {
         style={{
           fontFamily: "Poppins, sans-serif",
         }}
-        className="text-center mt-5"
+        className="text-center "
       >
-        <br />
-        <br />
         <h2 className="description-heading">
           <b>
             Trusted more than <span style={{ color: "#CB8461" }}>100+</span> in
             the world
           </b>
         </h2>
-        <br />
-        <span style={{ color: "gray" }}>
-          they have asked us more than 3 times to teach their employees
-        </span>
-        <br />
-
-        <span style={{ color: "gray" }}>
-          about various things. to improve their skills
-        </span>
+        <p className="description-heading-2" style={{ color: "gray" }}>
+          they have asked us more than 3 times to teach their employees about
+          various things. to improve their skills
+        </p>
       </div>
       <Container>
         <Row className="align-items-center my-5 mx-5 px-5 justify-content-center">
-          <Col md={2} sm={6}>
+          <Col md={2} xs={6}>
             <img
               style={{ width: "120px" }}
               src={uber}
@@ -42,7 +35,7 @@ const Client = () => {
               className="img-fluid"
             />
           </Col>
-          <Col md={2} sm={6}>
+          <Col md={2} xs={6}>
             <img
               style={{ width: "120px" }}
               src={google}
@@ -50,7 +43,7 @@ const Client = () => {
               className="img-fluid"
             />
           </Col>
-          <Col md={2} sm={6}>
+          <Col md={2} xs={6}>
             <img
               style={{ width: "120px" }}
               src={paypal}
@@ -58,7 +51,7 @@ const Client = () => {
               className="img-fluid"
             />
           </Col>
-          <Col md={2} sm={6}>
+          <Col md={2} xs={6}>
             <img
               style={{ width: "120px" }}
               src={microsoft}
@@ -66,7 +59,7 @@ const Client = () => {
               className="img-fluid"
             />
           </Col>
-          <Col md={2} sm={6}>
+          <Col md={2} xs={6}>
             <img
               style={{ width: "120px" }}
               src={dribble}

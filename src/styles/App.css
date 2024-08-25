@@ -3,10 +3,15 @@
 .curved-underline {
     position: absolute;
     left: 0px;
-    top: 45px;
-    width: 130px;
+    top: 68px;
+    width: 180px;
 }
-
+.description-heading {
+    padding-top: 90px;
+}
+.description-heading-2 {
+    margin: 0px 400px;
+}
 .hero-section h1 {
     font-size: 2rem;
 }
@@ -19,7 +24,7 @@
 }
 .hero-section-play-icon {
     position: absolute;
-    background-color: #7252A4;
+    background-color: #7252a4;
     color: white;
     padding: 5px 8px;
     border-radius: 5px;
@@ -28,12 +33,18 @@
     transform: rotate(15deg);
     transform-origin: top left;
 }
+
+@media (max-width: 1200px) {
+    .description-heading-2 {
+        margin: 0px 200px;
+    }
+}
 @media (max-width: 991px) {
     .hero-section-icons {
         margin-top: 30px;
     }
     .curved-underline {
-        top: 25px;
+        top: 48px;
     }
     .description {
         width: 100%;
@@ -49,13 +60,13 @@
     .hero-section-mobile-icons {
         top: 90px;
     }
-    .description-heading {
-        padding-top: 90px;
+    .description-heading-2 {
+        margin: 0px 20px;
     }
 }
 
 @media (max-width: 418px) {
- .hero-section-play-icon {
-    top: 390px;
-}
+    .hero-section-play-icon {
+        top: 390px;
+    }
 }
