@@ -10,7 +10,10 @@ const Join = lazy(() => import("../components/Join"));
 
 
 const CoursesSection = lazy(() => import("../components/CoursesSection"));
-const PricingSection = lazy(() => import("../components/PricingSection"));
+const About = lazy(() => import("../components/About"));
+const Price = lazy(() => import("../components/Price"));
+
+
 
 const HomePage = () => (
   <Suspense fallback={<div>Loading...</div>}>
@@ -20,9 +23,10 @@ const HomePage = () => (
     <Subscribe />
     <Profile />
     <CoursesSection />
+    <About />
+    <Price />
     <Join />
 
-    <PricingSection />
   </Suspense>
 );
 

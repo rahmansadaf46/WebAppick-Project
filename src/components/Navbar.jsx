@@ -62,12 +62,12 @@ const CustomNavbar = () => {
               About
             </Nav.Link>
             <Nav.Link
-              style={{ color: menu === "Testimonial" ? "white" : "#A7BFB9" }}
+              style={{ color: menu === "Testimoni" ? "white" : "#A7BFB9" }}
               className="mx-3"
-              href="#Testimonial"
-              onClick={() => setMenu("Testimonial")}
+              href="#Testimoni"
+              onClick={() => setMenu("Testimoni")}
             >
-              Testimonial
+              Testimoni
             </Nav.Link>
           </Nav>
         </div>
@@ -180,14 +180,14 @@ const CustomNavbar = () => {
             </Nav.Link>
             <Nav.Link
               className="w-100"
-              style={{ color: menu === "Testimonial" ? "white" : "#A7BFB9" }}
-              href="#Testimonial"
+              style={{ color: menu === "Testimoni" ? "white" : "#A7BFB9" }}
+              href="#Testimoni"
               onClick={() => {
                 handleClose();
-                setMenu("Testimonial");
+                setMenu("Testimoni");
               }}
             >
-              Testimonial
+              Testimoni
             </Nav.Link>
             <Nav.Link
               onClick={() => {

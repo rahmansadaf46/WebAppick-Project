@@ -20,7 +20,7 @@ const Client = () => {
             world
           </b>
         </h2>
-        <p className="description-heading-2" style={{ color: "gray" }}>
+        <p className="description-heading-2" style={{ color: "gray", lineHeight:3 }}>
           they have asked us more than 3 times to teach their employees about
           various things. to improve their skills
         </p>
