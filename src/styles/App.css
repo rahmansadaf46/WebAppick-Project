@@ -54,6 +54,9 @@
     }
     .hero-section img {
         margin-top: 20px;
+    } 
+    .client-logo{
+        margin: 10px;
     }
 }
 @media (max-width: 768px) {

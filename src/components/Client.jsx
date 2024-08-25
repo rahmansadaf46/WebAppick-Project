@@ -32,7 +32,7 @@ const Client = () => {
               style={{ width: "120px" }}
               src={uber}
               alt="uber"
-              className="img-fluid"
+              className="img-fluid client-logo"
             />
           </Col>
           <Col md={2} xs={6}>
@@ -40,7 +40,7 @@ const Client = () => {
               style={{ width: "120px" }}
               src={google}
               alt="google"
-              className="img-fluid"
+              className="img-fluid client-logo"
             />
           </Col>
           <Col md={2} xs={6}>
@@ -48,7 +48,7 @@ const Client = () => {
               style={{ width: "120px" }}
               src={paypal}
               alt="paypal"
-              className="img-fluid"
+              className="img-fluid client-logo"
             />
           </Col>
           <Col md={2} xs={6}>
@@ -56,7 +56,7 @@ const Client = () => {
               style={{ width: "120px" }}
               src={microsoft}
               alt="microsoft"
-              className="img-fluid"
+              className="img-fluid client-logo"
             />
           </Col>
           <Col md={2} xs={6}>
@@ -64,7 +64,7 @@ const Client = () => {
               style={{ width: "120px" }}
               src={dribble}
               alt="dribble"
-              className="img-fluid"
+              className="img-fluid client-logo"
             />
           </Col>
         </Row>
