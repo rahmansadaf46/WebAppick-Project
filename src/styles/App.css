@@ -277,6 +277,9 @@
     .price-card-body {
         margin: 0px 40px 0px 40px !important;
     }
+    .price-card button {
+        width: 100%;
+    }
     .price-card:hover {
         bottom: 0px;
     }
