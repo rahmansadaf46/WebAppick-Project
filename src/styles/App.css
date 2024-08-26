@@ -156,6 +156,7 @@
 .price-card {
     width: 250px;
     border: none !important;
+    background-color: #f4ede6 !important;
 }
 .price-card button {
     width: 80%;
@@ -166,7 +167,7 @@
     font-size: 12px;
 }
 .price-card:hover {
-    background-color: #245d51;
+    background-color: #245d51 !important;
     color: white !important;
     box-shadow: 0px 20px 30px #245d51;
     transition: 0.1s ease-in-out background-color;
@@ -276,6 +277,9 @@
     }
     .price-card-body {
         margin: 0px 40px 0px 40px !important;
+    }
+    .price-card:hover {
+        bottom: 0px;
     }
 }
 @media (max-width: 768px) {
