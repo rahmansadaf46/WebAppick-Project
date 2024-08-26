@@ -153,6 +153,48 @@
 .about-icon-details {
     margin-top: 10px;
 }
+.price-card {
+    width: 250px;
+    border: none !important;
+}
+.price-card button {
+    width: 80%;
+    border: none !important;
+    background: #fffaf8;
+    color: #fdc2a6;
+    border-radius: 50px;
+    font-size: 12px;
+}
+.price-card:hover {
+    background-color: #245d51;
+    color: white !important;
+    box-shadow: 0px 20px 30px #245d51;
+    transition: 0.1s ease-in-out background-color;
+    cursor: pointer;
+    position: relative;
+    bottom: 40px;
+    button {
+        background: #cb8461;
+        color: white;
+    }
+}
+
+.price-card::before {
+    content: "";
+    position: absolute;
+    top: 100;
+    right: 0;
+    width: 40%;
+    height: 140%;
+    background-image: repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.2) 1px, transparent 2px);
+    clip-path: polygon(50% 22%, 100% 0%, 100% 50%, 10% 40%);
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.price-card:hover::before {
+    opacity: 0.3; /* Adjust the opacity to make the lines visible */
+}
 @media (max-width: 1400px) {
     .course-play {
         left: 80px;
@@ -228,6 +270,12 @@
     }
     .about-icon-details {
         margin-top: 20px;
+    }
+    .price-card {
+        width: 100%;
+    }
+    .price-card-body {
+        margin: 0px 40px 0px 40px !important;
     }
 }
 @media (max-width: 768px) {
