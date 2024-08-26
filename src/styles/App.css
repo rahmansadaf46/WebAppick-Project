@@ -227,13 +227,13 @@
         margin-top: 30px;
     }
     .curved-underline {
-        top: 18px;
-        width: 150px;
-        left: -30px;
+        top: 14px;
+        width: 120px;
+        left: -20px;
     }
     .curved-underline-about {
-        top: 18px;
-        width: 150px;
+        top: 10px;
+        width: 130px;
         left: 0px;
     }
     .description {
@@ -255,7 +255,7 @@
         font-size: 18px;
     }
     .description-heading-font {
-        font-size: 30px !important;
+        font-size: 25px !important;
     }
     .profile-heading {
         text-align: center;
